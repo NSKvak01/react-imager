@@ -1,0 +1,45 @@
+.thumbnails img{
+    width:300px;
+    grid-area: img;
+    margin:5px;
+}
+
+button{
+    height:20px;
+    width:100px
+}
+
+
+.thumbnails{
+    display:grid;
+    grid-template-areas:
+    "img img img img"
+    "img img img img"
+    "img img img img"
+    "img img img img"
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center
+}
+
+.display img {
+    width:800px;
+    margin:10px;
+}
+
+.display{
+    display: flex;
+    flex-direction: column;
+}
+.buttons{
+    display:flex;
+    justify-content: space-between;
+}
+.buttons-tog{
+    display: flex;
+    justify-content: flex-end;
+}
